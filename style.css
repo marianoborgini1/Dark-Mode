@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    transition: 0.9s;
+    background-color: white;
+    color: black;
+}
+
+h2{
+    color: #a0b4ed;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul, div{
+    font-size: 18.5px;
+    padding-left: 28.5px;
+}
+
+button{
+    font-size: 16.5px;
+    border: none;
+    background-color: #7b91dc;
+    color: #f3f3f4;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+button:hover{
+    background-color: #969696;
+    transition: 0.4s;
+}
+
+div{
+    padding-bottom: 25px;
+}
+
+body.black-mode {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width : 720px) {
+    ul li{
+        font-size: 15px;
+        width: 92%;
+    }
+}
